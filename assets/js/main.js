@@ -9,6 +9,6 @@ let root = new Vue({
   el: "#root",
   data: {
     welcomeMessage: "Ecco la mia bellissima moto",
-    myImage: "https://i.postimg.cc/PH4LRFqC/moto.jpg"
+    myImage: "assets/img/moto.webp"
   }
 });
