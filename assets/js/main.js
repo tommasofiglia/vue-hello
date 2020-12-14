@@ -1,4 +1,14 @@
-let app = new Vue({
+/*************************************
+Stampare a schermo un messaggio all’interno di un h1, utilizzando i data.
+Bonus: Aggiungere un’immagine presa anch’essa da un data.
+**************************************/
+
+
+let root = new Vue({
   // options object
-  el: "#app",
+  el: "#root",
+  data: {
+    welcomeMessage: "Ecco la mia bellissima moto",
+    myImage: "https://i.postimg.cc/PH4LRFqC/moto.jpg"
+  }
 });
